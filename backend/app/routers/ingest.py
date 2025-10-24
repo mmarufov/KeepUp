@@ -77,3 +77,4 @@ async def ingest_top_headlines():
     return IngestResponse(inserted=inserted)
 
 
+
