@@ -28,3 +28,4 @@ HEALTHCHECK CMD curl -f http://localhost:8080/health || exit 1
 CMD ["uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", "8080"]
 
 
+
